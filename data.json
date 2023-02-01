@@ -1,0 +1,91 @@
+[
+  {
+    "employees": [
+      {
+        "id": 1,
+        "userId": "77nOY5jgKkaaPK13j4NjnRmzpPA3",
+        "organizationId": 1,
+        "roleId": null,
+        "createdAt": "2022-07-12T20:37:18.430Z",
+        "updatedAt": "2022-07-12T20:37:18.430Z",
+        "TeamEmployee": {
+          "id": 1,
+          "employeeId": 1,
+          "teamId": 1,
+          "createdAt": "2022-07-22T14:28:35.269Z",
+          "updatedAt": "2022-07-22T14:28:35.269Z"
+        },
+        "user": {
+          "uid": "77nOY5jgKkaaPK13j4NjnRmzpPA3",
+          "name": "User",
+          "phone": "89149030670",
+          "email": "iogru@gmail.com",
+          "avatar_path": "uploads/avatars/1657697333758download.png",
+          "createdAt": "2022-07-12T20:36:23.292Z",
+          "updatedAt": "2022-08-01T18:25:40.805Z",
+          "details": {
+            "telegramId": 765136728
+          }
+        }
+      }
+    ],
+    "rooms": [
+      {
+        "id": 1,
+        "name": "Flower Room 4",
+        "facilityId": 1,
+        "icon": "cloneroom.png",
+        "currentDay": 1,
+        "occupied": true,
+        "params": [
+          {
+            "i": 1,
+            "value": "Phase 2",
+            "valueName": "Phase",
+            "typeOfField": "Selector"
+          }
+        ],
+        "setupId": 13,
+        "createdAt": "2022-07-12T20:37:24.963Z",
+        "updatedAt": "2022-09-02T09:49:57.814Z",
+        "TeamRoom": {
+          "id": 1,
+          "roomId": 1,
+          "teamId": 1,
+          "permissions": null,
+          "createdAt": "2022-07-22T14:30:13.797Z",
+          "updatedAt": "2022-07-22T14:30:13.797Z"
+        },
+        "tasks": [
+          {
+            "id": 12,
+            "roomId": 1,
+            "teamId": null,
+            "name": "1",
+            "phase": 0,
+            "status": 0,
+            "startDay": "2022-09-05",
+            "endDay": "2022-09-10",
+            "description": "string",
+            "shortDescription": "string",
+            "report": null,
+            "color": 0,
+            "reviewNeeded": true,
+            "reschedule": true,
+            "highPriority": true,
+            "createdAt": "2022-09-05T10:44:43.710Z",
+            "updatedAt": "2022-09-05T10:44:43.710Z"
+          }
+        ],
+        "facility": {
+          "id": 1,
+          "name": "Happy Plants",
+          "timezone": "-3",
+          "organizationId": 1,
+          "createdAt": "2022-07-12T20:37:13.871Z",
+          "updatedAt": "2022-07-12T20:37:13.871Z"
+        }
+      }
+    ]
+  }
+]

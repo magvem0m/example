@@ -1,0 +1,36 @@
+{
+  "version": "0.2",
+  "enabled": true,
+  "language": "en",
+  "allowCompoundWords": true,
+  "dictionaries": [
+    "typescript",
+    "node",
+    "npm"
+  ],
+  "enabledLanguageIds": [
+    "typescript",
+    "javascript",
+    "json"
+  ],
+  "words": [
+    "fkey",
+    "uids",
+    "nestjs",
+    "QNWZ",
+    "Cemhtf",
+    "Testov",
+    "xaxis",
+    "yaxis",
+    "docsify",
+    "iogru",
+    "Iogru",
+    "devme",
+    "commitlint",
+    "occup",
+    "giga",
+    "Kkaa",
+    "Rmzp",
+    "NATS"
+  ]
+}
