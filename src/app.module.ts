@@ -63,15 +63,6 @@ import { RoomModeTypes } from './models/room_mode_types.model';
       : []),
     ClientsModule.register([
       {
-        name: 'DISTRIBUTOR_SERVICE',
-        transport: Transport.NATS,
-        options: {
-          servers: `${process.env.BROKER_HOST}:${process.env.BROKER_PORT}`,
-          pass: process.env.BROKER_USER,
-          user: process.env.BROKER_PASSWORD
-        }
-      },
-      {
         name: 'PERMISSION_MICROSERVICE',
         transport: Transport.NATS,
         options: {
